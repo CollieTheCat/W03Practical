@@ -1,0 +1,32 @@
+public class W03Practical {
+    public static void main(String[] args) {
+
+        double ring = (187.75);
+        double brideClothes = (779.50);
+        double groomClothes = (159.95);
+        double bmaidClothes = (127.75);
+        double dinner4One = (48.50);
+        double drink4One = (16.10);
+        double weddingCake = (202.80);
+        double limo = (282.75);
+        double buttonHole = (11.42);
+        double bigBouquet = (102.95);
+        double smallBouquet = (33.50);
+        double invite = (6.66);
+        double receptionVenue = (811.95);
+
+        double ringTotal = (2 * ring);
+        double clothesTotal = (2 * groomClothes + brideClothes + 3 * bmaidClothes + 8 * buttonHole);
+        double foodTotal = (64 * (dinner4One + drink4One) + weddingCake);
+        double inviteTotal = (invite * 50);
+        double transportTotal = (limo * 2);
+        double flowerTotal = (bigBouquet + 3 * smallBouquet);
+
+        double costTotal = (ringTotal + clothesTotal + foodTotal + inviteTotal + transportTotal + flowerTotal +
+                receptionVenue);
+
+        System.out.println("The total cost of the wedding is £" + costTotal);
+
+
+    }
+}
